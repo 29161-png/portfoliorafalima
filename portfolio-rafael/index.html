@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafael de Lima — Desenvolvedor e entusiasta de soluções digitais</title>
+<meta name="description" content="Portfólio de Rafael de Lima: estudante de Técnico em Informática, fundador da Panache e desenvolvedor web. Projetos, habilidades e contato.">
+<meta name="theme-color" content="#101014">
+<meta property="og:title" content="Rafael de Lima — Soluções digitais">
+<meta property="og:description" content="Transformando ideias em soluções digitais.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23101014'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%238B5CF6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<header class="top">
+  <a class="brand" href="#inicio" aria-label="Rafael de Lima, início">rafael<span>.</span>lima</a>
+  <nav id="menu" aria-label="Principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <button class="theme" id="themeBtn" type="button" aria-label="Alternar entre tema claro e escuro">
+    <span class="theme-track"><span class="theme-dot"></span></span>
+    <span class="theme-label mono" id="themeLabel">escuro</span>
+  </button>
+  <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</header>
+
+<main id="main">
+<section class="hero" id="inicio">
+  <canvas id="grid" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <p class="status mono"><i class="pulse"></i>Aberto a projetos e conexões profissionais <span class="clock" id="clock"></span></p>
+    <h1>Transformando ideias em soluções digitais.</h1>
+    <div class="hero-row">
+      <p class="lead">Sou estudante de Tecnologia da Informação e atuo na interseção entre tecnologia, criatividade e negócios. Gosto de desenvolver soluções que conectam boas ideias a resultados reais.</p>
+      <div class="who">
+        <strong>Rafael de Lima</strong>
+        <span>Desenvolvedor e entusiasta de soluções digitais</span>
+        <div class="btns">
+          <a class="btn primary" href="#projetos">Conheça meu trabalho</a>
+          <a class="btn" href="#contato">Entre em contato</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="sobre">
+  <div class="wrap split">
+    <h2>Sobre mim</h2>
+    <div class="prose">
+      <p class="big">Gosto de entender o problema antes de escrever a primeira linha de código.</p>
+      <p>Estou no 2º ano do Ensino Médio integrado ao curso Técnico em Informática. Aprendo desenvolvimento web na prática, com HTML, CSS, JavaScript, Node.js e Express, e me interesso tanto pela parte técnica quanto pela estratégia por trás de um produto ou negócio digital.</p>
+      <p>Sou fundador e CEO da Panache, agência de marketing e soluções digitais. Lá, o dia a dia passa por marketing, tráfego pago, social media, sites, landing pages, criativos e automação de processos. Esse contato com empresas reais me ensinou que uma boa solução precisa funcionar para quem usa e para quem vende.</p>
+      <dl class="areas">
+        <div><dt>Desenvolvimento web</dt><dd>Transformar uma ideia em uma aplicação funcional.</dd></div>
+        <div><dt>Negócios digitais</dt><dd>Pensar em aquisição de clientes e em produto.</dd></div>
+        <div><dt>Inteligência artificial</dt><dd>Aplicar IA e automação para resolver problemas práticos.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="projetos">
+  <div class="wrap">
+    <h2>Projetos</h2>
+    <ul class="projects">
+      <li class="proj">
+        <div class="proj-head"><h3>BarberInsight</h3><span class="mono">Plataforma web · TCC</span></div>
+        <p>Plataforma de agendamento para barbearias, desenvolvida no meu Trabalho de Conclusão de Curso. Conecta clientes e profissionais em uma experiência organizada, com cadastro de usuários, agendamento de serviços, gerenciamento de horários, controle de status e prevenção de conflitos de horário entre profissionais.</p>
+        <ul class="tags mono"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express.js</li><li>libSQL</li></ul>
+        <!-- Quando houver links reais, troque cada <span class="soon"> por <a href="URL" target="_blank" rel="noopener"> -->
+        <p class="links"><span class="soon">Demonstração em breve</span><span class="soon">Repositório em breve</span></p>
+      </li>
+      <li class="proj">
+        <div class="proj-head"><h3>Panache</h3><span class="mono">Agência de marketing e soluções digitais</span></div>
+        <img class="plogo" src="assets/panache-logo.png" alt="Logo da Panache" width="160" height="71">
+        <p>Fundei a Panache para construir sistemas de crescimento para empresas digitais, combinando estratégia, branding, performance, otimização de conversão e tecnologia para atrair, converter e escalar.</p>
+        <ul class="tags mono"><li>Marketing digital</li><li>Tráfego pago</li><li>Social media</li><li>Sites e landing pages</li><li>Branding</li><li>CRO</li><li>Automação</li></ul>
+        <p class="links"><a href="https://panachemarketing.company/" target="_blank" rel="noopener">Visitar o site da Panache</a></p>
+      </li>
+      <li class="proj lab">
+        <div class="proj-head"><h3>Soluções digitais e experimentos</h3><span class="mono">Laboratório</span></div>
+        <p>Espaço para outros trabalhos, testes com inteligência artificial, projetos web e experimentos tecnológicos. Novos projetos entram aqui conforme ficam prontos.</p>
+        <p class="links"><span class="soon">Em construção</span></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="habilidades">
+  <div class="wrap">
+    <h2>Habilidades</h2>
+    <div class="stack">
+      <article>
+        <h3>Desenvolvimento</h3>
+        <p>Do layout ao servidor, com código limpo e versionado.</p>
+        <ul class="tags mono"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express.js</li><li>Bancos de dados</li><li>Git e GitHub</li></ul>
+      </article>
+      <article>
+        <h3>Marketing e negócios</h3>
+        <p>Estratégia para atrair clientes e fazer um negócio crescer.</p>
+        <ul class="tags mono"><li>Tráfego pago</li><li>Estratégia digital</li><li>Social media</li><li>Soluções para empresas</li></ul>
+      </article>
+      <article>
+        <h3>Tecnologia e inovação</h3>
+        <p>Ideias novas aplicadas a problemas reais.</p>
+        <ul class="tags mono"><li>Inteligência artificial</li><li>Automação</li><li>Produtos digitais</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt contact" id="contato">
+  <div class="wrap split">
+    <div>
+      <h2>Vamos transformar uma ideia em algo real?</h2>
+      <ul class="social">
+        <li><a href="mailto:rafaeloliveiralima2304@gmail.com">rafaeloliveiralima2304@gmail.com</a></li>
+        <li><a href="https://github.com/LimaWebs" target="_blank" rel="noopener">github.com/LimaWebs</a></li>
+        <li><a href="https://instagram.com/raf.liima" target="_blank" rel="noopener">instagram.com/raf.liima</a></li>
+        <!-- LinkedIn: adicione aqui quando tiver o link: <li><a href="URL" target="_blank" rel="noopener">LinkedIn</a></li> -->
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <div class="field"><label for="nome">Nome</label><input id="nome" name="nome" autocomplete="name" required><small class="err" aria-live="polite"></small></div>
+      <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required><small class="err" aria-live="polite"></small></div>
+      <div class="field"><label for="assunto">Assunto</label><input id="assunto" name="assunto" required><small class="err" aria-live="polite"></small></div>
+      <div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" required></textarea><small class="err" aria-live="polite"></small></div>
+      <input class="hp" name="site" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn primary" type="submit" id="send">Enviar mensagem</button>
+      <p class="feedback" id="feedback" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot wrap mono"><span>© <span id="year"></span> Rafael de Lima</span><span>Feito à mão com HTML, CSS e JavaScript</span></footer>
+<a class="totop" id="toTop" href="#inicio" aria-label="Voltar ao topo">↑</a>
+<script src="js/main.js"></script>
+</body>
+</html>
